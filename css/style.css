@@ -126,7 +126,7 @@ br.clear {
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Inter_Regular';
   src: url('../fonts/Inter-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
@@ -134,7 +134,7 @@ br.clear {
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Inter_SemiBold';
   src: url('../fonts/Inter-SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
@@ -142,7 +142,7 @@ br.clear {
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Inter_Thin';
   src: url('../fonts/Inter-Thin.woff2') format('woff2');
   font-weight: 100;
   font-style: normal;
@@ -150,7 +150,7 @@ br.clear {
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Inter_Regular';
   src: url('../fonts/Inter-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
@@ -189,11 +189,13 @@ header section.wrapper div.top div.social {
   margin: 40px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
 }
 
 header section.wrapper div.top div.social ul { 
   display: flex;
+  
  
 
 }
@@ -218,26 +220,64 @@ header section.wrapper div.top div.social p {
 }
 
 header section.wrapper div.top div.contact { 
+  display: flex;
+  justify-content: space-between;
+
 
 }
 
-header section.wrapper div.top div.contact div.item { 
+
+
+header section.wrapper div.top div.contact  ul{
+  display: flex;
+ 
+
+}
+header section.wrapper div.top div.contact  ul li{
+  display: flex;
+  margin-right: 50px;
+  flex-wrap: wrap;
+  width: 30%;
+
+}
+header section.wrapper div.top div.contact  ul li a.trans{
+  opacity: 50%;
+  font-size: 16px;
+  font-family: 'Inter_Regular';
+
+ 
 
 }
 
-header section.wrapper div.top div.contact div.item img { 
+
+header section.wrapper div.top div.contact  ul li a { 
+  display: flex;
+  font-size: 12px;
+  font-family: 'Inter_SemiBold';
+  display: block;
+  
+ 
+  
+  
+  
 
 }
 
-header section.wrapper div.top div.contact div.item p { 
+header section.wrapper div.top div.contact  ul li a img{
+  width: 18px;
+  display:inline-block ; 
+ 
+  
+  
+  
 
 }
 
-header section.wrapper div.top div.contact div.item a { 
 
-}
 
-header section.wrapper div.top div.contact a.button { 
+
+
+header section.wrapper div.top div.contact a.button{ 
 
 }
 
