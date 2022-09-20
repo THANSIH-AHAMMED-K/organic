@@ -225,61 +225,53 @@ header section.wrapper div.top div.contact {
 
 
 }
-
-
-
-header section.wrapper div.top div.contact  ul{
+header section.wrapper div.top div.contact div.items{
   display: flex;
+  
+}
+
+header section.wrapper div.top div.contact div.item{
+  margin-right: 15px;
+  display: flex;
+
+}
+header section.wrapper div.top div.contact div.item:last-child{
+  margin-right: 0;
+}
+
+
+header section.wrapper div.top div.contact div.item div.left{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
  
 
 }
-header section.wrapper div.top div.contact  ul li{
-  display: flex;
-  margin-right: 50px;
-  flex-wrap: wrap;
-  width: 30%;
-
-}
-header section.wrapper div.top div.contact  ul li a.trans{
-  opacity: 50%;
-  font-size: 16px;
-  font-family: 'Inter_Regular';
-
- 
-
-}
-
-
-header section.wrapper div.top div.contact  ul li a { 
-  display: flex;
-  font-size: 12px;
-  font-family: 'Inter_SemiBold';
+header section.wrapper div.top div.contact div.item div.left img{
   display: block;
-  
+ }
+
+  header section.wrapper div.top div.contact div.item div.right{
+    
+
+  } 
+  header section.wrapper div.top div.contact div.item div.right a{
+    display: block;
+    
+  } 
+  header section.wrapper div.top div.contact div.item div.right a.trans{
+    
+  } 
+
+
  
-  
-  
-  
-
-}
-
-header section.wrapper div.top div.contact  ul li a img{
-  width: 18px;
-  display:inline-block ; 
- 
-  
-  
-  
-
-}
 
 
 
 
 
-header section.wrapper div.top div.contact a.button{ 
 
-}
+
 
 header section.wrapper div.bottom { 
 
