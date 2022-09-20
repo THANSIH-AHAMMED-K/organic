@@ -171,22 +171,118 @@ br.clear {
   color: #c0ccda;
 }
 
-header{
+header { 
+  height: 200px;
 
 }
-header div.top{
+
+header section.wrapper { 
 
 }
-header div.top div.social{
+
+header section.wrapper div.top { 
+
 
 }
-header div.top div.social ul
-header div.top div.social ul li
-header div.top div.social ul li a
-header div.top div.social p
-header div.top div.contact
-header div.top div.contact ul
-header div.top div.contact ul li
-header div.top div.contact ul li a
+
+header section.wrapper div.top div.social { 
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+header section.wrapper div.top div.social ul { 
+  display: flex;
+ 
+
+}
+
+header section.wrapper div.top div.social ul li { 
+  margin-right: 30px;
+
+}
+header section.wrapper div.top div.social ul li:last-child{
+  margin-right: 0;
+}
+
+header section.wrapper div.top div.social ul li a { 
+  font-size: 12px;
+
+}
+
+header section.wrapper div.top div.social p { 
+  font-size: 12px;
+
+
+}
+
+header section.wrapper div.top div.contact { 
+
+}
+
+header section.wrapper div.top div.contact div.item { 
+
+}
+
+header section.wrapper div.top div.contact div.item img { 
+
+}
+
+header section.wrapper div.top div.contact div.item p { 
+
+}
+
+header section.wrapper div.top div.contact div.item a { 
+
+}
+
+header section.wrapper div.top div.contact a.button { 
+
+}
+
+header section.wrapper div.bottom { 
+
+}
+
+header section.wrapper div.bottom div.rght { 
+
+}
+
+header section.wrapper div.bottom div.rght h1 { 
+
+}
+
+header section.wrapper div.bottom div.rght h1 a { 
+
+}
+
+header section.wrapper div.bottom div.left { 
+
+}
+
+header section.wrapper div.bottom div.left nav { 
+
+}
+
+header section.wrapper div.bottom div.left nav ul { 
+
+}
+
+header section.wrapper div.bottom div.left nav ul li { 
+
+}
+
+header section.wrapper div.bottom div.left nav ul li a { 
+
+}
+
+header section.wrapper div.bottom div.left a.button { 
+
+}
+
+header section.wrapper div.bottom div.left a.button img { 
+
+}
 
 
