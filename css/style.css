@@ -67,96 +67,95 @@ br.clear {
 .wrapper {
   width: 90%;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1100px;
 }
 @font-face {
-  font-family: 'Island Moments';
-  src: url('../fonts/IslandMoments-Regular.woff2') format('woff2');
+  font-family: "Island Moments";
+  src: url("../fonts/IslandMoments-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-ExtraBold.woff2') format('woff2');
+  font-family: "Inter";
+  src: url("../fonts/Inter-ExtraBold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-ExtraLight.woff2') format('woff2');
+  font-family: "Inter";
+  src: url("../fonts/Inter-ExtraLight.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Light.woff2') format('woff2');
+  font-family: "Inter";
+  src: url("../fonts/Inter-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Medium.woff2') format('woff2');
+  font-family: "Inter";
+  src: url("../fonts/Inter-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Bold.woff2') format('woff2');
+  font-family: "Inter";
+  src: url("../fonts/Inter-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Black.woff2') format('woff2');
+  font-family: "Inter";
+  src: url("../fonts/Inter-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter_Regular';
-  src: url('../fonts/Inter-Regular.woff2') format('woff2');
+  font-family: "Inter_Regular";
+  src: url("../fonts/Inter-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter_SemiBold';
-  src: url('../fonts/Inter-SemiBold.woff2') format('woff2');
+  font-family: "Inter_SemiBold";
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter_Thin';
-  src: url('../fonts/Inter-Thin.woff2') format('woff2');
+  font-family: "Inter_Thin";
+  src: url("../fonts/Inter-Thin.woff2") format("woff2");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Inter_Regular';
-  src: url('../fonts/Inter-Regular.woff2') format('woff2');
+  font-family: "Inter_Regular";
+  src: url("../fonts/Inter-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-
 
 ::placeholder {
   color: #c0ccda;
@@ -171,150 +170,161 @@ br.clear {
   color: #c0ccda;
 }
 
-header { 
+header {
   height: 200px;
-
 }
 
-header section.wrapper { 
-
+header section.wrapper {
 }
 
-header section.wrapper div.top { 
-
-
+header section.wrapper div.top {
 }
 
-header section.wrapper div.top div.social { 
+header section.wrapper div.top div.social {
   margin: 40px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-header section.wrapper div.top div.social ul { 
+header section.wrapper div.top div.social ul {
   display: flex;
-  
- 
-
 }
 
-header section.wrapper div.top div.social ul li { 
+header section.wrapper div.top div.social ul li {
   margin-right: 30px;
-
 }
-header section.wrapper div.top div.social ul li:last-child{
+header section.wrapper div.top div.social ul li:last-child {
   margin-right: 0;
 }
 
-header section.wrapper div.top div.social ul li a { 
+header section.wrapper div.top div.social ul li a {
   font-size: 12px;
-
 }
 
-header section.wrapper div.top div.social p { 
+header section.wrapper div.top div.social p {
   font-size: 12px;
-
-
 }
 
-header section.wrapper div.top div.contact { 
+header section.wrapper div.top div.contact {
   display: flex;
   justify-content: space-between;
-
-
 }
-header section.wrapper div.top div.contact div.items{
+header section.wrapper div.top div.contact div.items {
   display: flex;
-  
 }
 
-header section.wrapper div.top div.contact div.item{
-  margin-right: 15px;
+header section.wrapper div.top div.contact div.item {
+  margin-right: 20px;
   display: flex;
-
+  align-items: center;
 }
-header section.wrapper div.top div.contact div.item:last-child{
+header section.wrapper div.top div.contact div.item:last-child {
   margin-right: 0;
 }
 
-
-header section.wrapper div.top div.contact div.item div.left{
+header section.wrapper div.top div.contact div.item div.left {
   display: flex;
   align-items: center;
   margin-right: 15px;
- 
-
 }
-header section.wrapper div.top div.contact div.item div.left img{
+header section.wrapper div.top div.contact div.item div.left img {
+  width: 100%;
   display: block;
- }
+}
 
-  header section.wrapper div.top div.contact div.item div.right{
-    
+header section.wrapper div.top div.contact div.item div.right {
+}
+header section.wrapper div.top div.contact div.item div.right a {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+}
+header section.wrapper div.top div.contact div.item div.right a.trans {
+  opacity: 50%;
+  font-size: 15px;
+  font-weight: normal;
 
-  } 
-  header section.wrapper div.top div.contact div.item div.right a{
-    display: block;
-    
-  } 
-  header section.wrapper div.top div.contact div.item div.right a.trans{
-    
-  } 
+  line-height: 1.9;
+}
 
+header section.wrapper div.top div.contact div.search {
+  font-size: 15px;
+}
 
+header section.wrapper div.bottom {
+  height: 60px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header section.wrapper div.bottom div.left {
+}
+
+header section.wrapper div.bottom div.left h1 {
+  
+}
+
+header section.wrapper div.bottom div.left h1 a {
+  font-size: 30px;
+  font-family: "Inter_Regular";
+  color: #5ca26e;
+}
+
+header section.wrapper div.bottom div.middle {
+  display: flex;
+  align-items: baseline;
+  
+  
+}
+
+header section.wrapper div.bottom div.middle nav {
+  margin-right: 20px;
+}
+
+header section.wrapper div.bottom div.middle nav ul {
+  display: flex;
+}
+
+header section.wrapper div.bottom div.middle nav ul li {
+  margin-right: 30px;
+}
+header section.wrapper div.bottom div.middle nav ul li:last-child{
+  margin-right: 90px;
+}
+
+header section.wrapper div.bottom div.middle nav ul li a {
+  font-size: 13px;
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+  
+  
+}
+header section.wrapper div.bottom div.middle nav ul li a:hover{
+  border-top: 1px solid #000;
+}
+
+header section.wrapper div.bottom div.middle.right {
+  display: flex;
+  align-items: center;
+}
+header section.wrapper div.bottom div.middle.right h1 {
  
-
-
-
-
-
-
-
-
-header section.wrapper div.bottom { 
-
 }
-
-header section.wrapper div.bottom div.rght { 
-
-}
-
-header section.wrapper div.bottom div.rght h1 { 
-
-}
-
-header section.wrapper div.bottom div.rght h1 a { 
-
-}
-
-header section.wrapper div.bottom div.left { 
-
-}
-
-header section.wrapper div.bottom div.left nav { 
-
-}
-
-header section.wrapper div.bottom div.left nav ul { 
-
-}
-
-header section.wrapper div.bottom div.left nav ul li { 
-
-}
-
-header section.wrapper div.bottom div.left nav ul li a { 
-
-}
-
-header section.wrapper div.bottom div.left a.button { 
-
-}
-
-header section.wrapper div.bottom div.left a.button img { 
-
+header section.wrapper div.bottom div.middle.right h1 a {
+  display: inline-block;
+  color: #000;
+  font-size: 13px;
+  margin-right:5px;
+  font-weight:500;
 }
 
 
+header section.wrapper div.bottom div.middle.right  img {
+  display: block;
+  width:75%;
+  
+ 
+}
