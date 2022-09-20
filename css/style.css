@@ -328,3 +328,75 @@ header section.wrapper div.bottom div.middle.right  img {
   
  
 }
+section.spotlight { 
+  padding: 120px 0;
+  background: url(/images/Landing-Background.jpg);
+
+}
+
+section.spotlight section.wrapper { 
+
+}
+
+section.spotlight section.wrapper section.image_container { 
+  display: flex;
+  justify-content: space-between;
+
+}
+
+section.spotlight section.wrapper section.image_container div.first_image {
+  background: url(/images/Landing-img-1.jpg) no-repeat; 
+  background-size: cover;
+
+}
+
+section.spotlight section.wrapper section.image_container div.first_image div.content { 
+
+}
+
+section.spotlight section.wrapper section.image_container div.first_image div.content small { 
+  display: block;
+  margin-top: 60px;
+  color: #5ca26e;
+  font-size: 40px;
+  font-family: "Island Moments";
+
+}
+
+section.spotlight section.wrapper section.image_container div.first_image div.content h1 { 
+  font-size: 48px;
+
+}
+
+section.spotlight section.wrapper section.image_container div.first_image div.content h2{ 
+
+}
+section.spotlight section.wrapper section.image_container div.first_image div.content h2:before{ 
+  content: "";
+
+}
+
+
+section.spotlight section.wrapper section.image_container div.first_image div.content p { 
+
+}
+
+section.spotlight section.wrapper section.image_container div.first_image div.content a.button { 
+
+}
+
+section.spotlight section.wrapper section.image_container div.second_image { 
+  background: url(/images/Landing-img-2.jpg) no-repeat;
+  background-size: cover ;
+
+}
+
+section.spotlight section.wrapper section.image_container div.second_image div.content { 
+
+}
+
+section.spotlight section.wrapper section.image_container div.second_image div.content h1 { 
+
+}
+
+
