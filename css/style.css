@@ -457,6 +457,7 @@ section#category section.wrapper div.heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 
 }
 
@@ -497,12 +498,13 @@ section#category section.wrapper div.categories {
 section#category section.wrapper div.categories ul { 
   display: flex;
   justify-content: space-between;
+ 
   
 }
 
 section#category section.wrapper div.categories ul li { 
-  padding: 15px;
-  background: hsl(0, 0%, 97%);
+  width: 14%;
+
   
  
 
@@ -527,3 +529,212 @@ section#category section.wrapper div.categories ul li h5 {
 
 }
 
+section#offer { 
+  padding: 70px 0px;
+}
+
+section#offer section.wrapper { 
+
+}
+
+section#offer section.wrapper div.container { 
+  display: flex;
+  justify-content: space-between;
+
+}
+
+section#offer section.wrapper div.container div.left { 
+  width: 68%;
+}
+
+section#offer section.wrapper div.container div.left ul { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+section#offer section.wrapper div.container div.left ul li { 
+  display: inline-block;
+  width: 49%;
+  height: 390px;
+  position: relative;
+
+}
+section#offer section.wrapper div.container div.left ul li:first-child{
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+section#offer section.wrapper div.container div.left ul li a { 
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+
+}
+
+section#offer section.wrapper div.container div.left ul li a img {
+  width: 100%;
+  height: 100%; 
+
+}
+
+section#offer section.wrapper div.container div.left ul li div.content { 
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+section#offer section.wrapper div.container div.left ul li:nth-child(2) div.content{
+  justify-content: space-around;
+}
+
+section#offer section.wrapper div.container div.left ul li div.content div.heading { 
+
+}
+
+section#offer section.wrapper div.container div.left ul li div.content div.heading h3 { 
+  font-size: 26px;
+  color: #000;
+  font-weight: 500;
+
+}
+section#offer section.wrapper div.container div.left ul li:first-child.content div.heading h3{
+  font-size: 30px;
+  color: #fff;
+
+}
+section#offer section.wrapper div.container div.left ul li:nth-child(3).content div.heading h3{
+    font-size: 24px;}
+section#offer section.wrapper div.container div.left ul li div.content div.heading p { 
+  font-size: 26px;
+  font-weight: 500;
+  color: #000;
+  
+}
+section#offer section.wrapper div.container div.left ul li:first-child div.content div.heading p{
+  font-size: 30px;
+  color: #fff;
+}
+section#offer section.wrapper div.container div.left ul li:nth-child(3) div.content div.heading p{
+  font-size: 24px;
+}
+
+section#offer section.wrapper div.container div.left ul li div.content div.rupees { 
+  color: #fff;
+
+}
+
+section#offer section.wrapper div.container div.left ul li div.content div.rupees span { 
+  margin-right: 20px;
+  font-size: 28px;
+
+}
+section#offer section.wrapper div.container div.left ul li div.content span{
+  font-size: 51px;
+  color: #cb1a1a;
+
+}
+
+section#offer section.wrapper div.container div.left ul li div.content span small { 
+  font-size: 20px;
+
+}
+
+section#offer section.wrapper div.container div.left ul li div.content a.button { 
+  text-align: center;
+  width: 60%;
+  padding: 19px 8px;
+  color: #8e8e8e;
+  font-size: 17px;
+
+}
+section#offer section.wrapper div.container div.left ul li:first-child div.content a.button{
+  text-align: center;
+  width: 30%;
+  padding: 20px 45px;
+  background: #fff;
+  color: #8e8e8e;
+  font-size: 17px;
+
+}
+
+section#offer section.wrapper div.container div.left ul li div.offer_Tag { 
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  background-color: #fff;
+  height: 30%;
+  width: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+}
+
+section#offer section.wrapper div.container div.left ul li div.offer_Tag h4 { 
+  font-weight: 600;
+  font-size: 22px;
+
+}
+
+section#offer section.wrapper div.container div.left ul li div.offer_Tag small { 
+  color: #8e8e8e;
+  font-size: 12px;
+
+}
+
+section#offer section.wrapper div.container div.right { 
+  width: 30%;
+  position: relative;
+
+}
+
+section#offer section.wrapper div.container div.right div.img { 
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+
+}
+
+section#offer section.wrapper div.container div.right div.img img { 
+  height: 100%;
+  width: 100%;
+
+}
+
+section#offer section.wrapper div.container div.right div.content { 
+  position: absolute;
+  top: 0;
+  left: 25px;
+  height: 30%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+section#offer section.wrapper div.container div.right div.content h4 {
+  font-size: 29px; 
+
+}
+
+section#offer section.wrapper div.container div.right div.content p { 
+  font-size: 12px;
+  color: #8e8e8e;
+
+}
+
+section#offer section.wrapper div.container div.right div.content span { 
+  color: #8e8e8e;
+  font-size: 18px;
+
+}
