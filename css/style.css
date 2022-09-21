@@ -78,7 +78,7 @@ br.clear {
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter-ExtraBold"
   src: url("../fonts/Inter-ExtraBold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
@@ -86,7 +86,7 @@ br.clear {
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter-ExtraLight";
   src: url("../fonts/Inter-ExtraLight.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
@@ -94,7 +94,7 @@ br.clear {
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter-Light";
   src: url("../fonts/Inter-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
@@ -102,7 +102,7 @@ br.clear {
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter-Medium";
   src: url("../fonts/Inter-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
@@ -110,7 +110,7 @@ br.clear {
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter-Bold";
   src: url("../fonts/Inter-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
@@ -118,7 +118,7 @@ br.clear {
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter-Black";
   src: url("../fonts/Inter-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
@@ -341,61 +341,106 @@ section.spotlight section.wrapper {
 section.spotlight section.wrapper section.image_container { 
   display: flex;
   justify-content: space-between;
+  
+  
 
 }
 
 section.spotlight section.wrapper section.image_container div.first_image {
   background: url(/images/Landing-img-1.jpg) no-repeat; 
   background-size: cover;
+  width: 63%;
+  position: relative;
+
 
 }
 
 section.spotlight section.wrapper section.image_container div.first_image div.content { 
+ width: 50%;
+ margin: 20px 0 30px 35px;
+ 
+  
 
+  
 }
 
 section.spotlight section.wrapper section.image_container div.first_image div.content small { 
   display: block;
-  margin-top: 60px;
+  margin-top: 20px;
   color: #5ca26e;
   font-size: 40px;
   font-family: "Island Moments";
 
+  
+
 }
 
 section.spotlight section.wrapper section.image_container div.first_image div.content h1 { 
-  font-size: 48px;
+  font-size: 66px;
+
+  font-weight: 600;
+  color: #000;
+  
+  
 
 }
 
 section.spotlight section.wrapper section.image_container div.first_image div.content h2{ 
+  position:relative;
+  font-size: 42px;
+  margin-left: 140px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 30px;
+  
+ 
 
 }
 section.spotlight section.wrapper section.image_container div.first_image div.content h2:before{ 
+  position:absolute;
+  border-bottom: 5px solid #5ca26e;
+  width: 122px;
+  left: -135px;
+  bottom: 25px;
   content: "";
 
 }
 
 
 section.spotlight section.wrapper section.image_container div.first_image div.content p { 
+  color: #979aa0;
+  margin-bottom: 35px;
+ 
 
 }
 
 section.spotlight section.wrapper section.image_container div.first_image div.content a.button { 
-
+  padding: 15px 25px;
+  background: #5ca26e;
+  margin-bottom: 20px;
+  
 }
 
 section.spotlight section.wrapper section.image_container div.second_image { 
   background: url(/images/Landing-img-2.jpg) no-repeat;
   background-size: cover ;
+  width: 35%;
+
+  
 
 }
 
 section.spotlight section.wrapper section.image_container div.second_image div.content { 
+  width: 70%;
+  
+  margin: 30px 20px 10px 60px;
 
 }
 
 section.spotlight section.wrapper section.image_container div.second_image div.content h1 { 
+  font-size:40px;
+  color: #ffe085;
+  font-family:"Inter_SemiBold" ;
 
 }
 
