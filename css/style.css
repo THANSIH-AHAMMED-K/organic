@@ -343,6 +343,7 @@ section.spotlight section.wrapper section.image_container {
   justify-content: space-between;
   
   
+  
 
 }
 
@@ -496,6 +497,7 @@ section#category section.wrapper div.categories {
 section#category section.wrapper div.categories ul { 
   display: flex;
   justify-content: space-between;
+  
 }
 
 section#category section.wrapper div.categories ul li { 
@@ -524,86 +526,4 @@ section#category section.wrapper div.categories ul li h5 {
   margin-top: 10px;
 
 }
-
-section.gallery { 
-  display: grid;
-
-}
-
-section.gallery div.top { 
-  grid-column: 1/4;
-
-}
-
-section.gallery div.top div.image { 
-
-}
-
-section.gallery div.top div.image a { 
-
-}
-
-section.gallery div.top div.image a img { 
-  display: block;
-  width: 100%;
-
-}
-
-section.gallery div.middle_left { 
-  grid-column: 1/2;
-
-}
-
-section.gallery div.middle_left div.image { 
-
-}
-
-section.gallery div.middle_left div.image a { 
-
-}
-
-section.gallery div.middle_left div.image a img { 
-  display: block;
-  width: 100%;
-
-}
-section.gallery div.middle_right { 
-  grid-column: 3/4;
-
-}
-
-section.gallery div.middle_right div.image { 
-  
-
-}
-
-section.gallery div.middle_right div.image a { 
-
-}
-
-section.gallery div.middle_right div.image a img { 
-  display: block;
-  width: 100%;
-
-}
-
-section.gallery div.right {
-  grid-column: 4/5; 
-
-}
-
-section.gallery div.right div.image { 
-
-}
-
-section.gallery div.right div.image a { 
-
-}
-
-section.gallery div.right div.image a img { 
-  display: block;
-  width: 100%;
-
-}
-
 
