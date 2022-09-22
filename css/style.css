@@ -348,7 +348,7 @@ section.spotlight section.wrapper section.image_container {
 }
 
 section.spotlight section.wrapper section.image_container div.first_image {
-  background: url(/images/Landing-img-1.jpg) no-repeat; 
+  background: url("../images/Landing-img-1.jpg") no-repeat; 
   background-size: cover;
   width: 63%;
   position: relative;
@@ -423,7 +423,7 @@ section.spotlight section.wrapper section.image_container div.first_image div.co
 }
 
 section.spotlight section.wrapper section.image_container div.second_image { 
-  background: url(/images/Landing-img-2.jpg) no-repeat;
+  background: url("../images/Landing-img-2.jpg") no-repeat;
   background-size: cover ;
   width: 35%;
 
@@ -457,6 +457,7 @@ section#category section.wrapper div.heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
+ 
   
 
 }
@@ -498,13 +499,14 @@ section#category section.wrapper div.categories {
 section#category section.wrapper div.categories ul { 
   display: flex;
   justify-content: space-between;
- 
+  
   
 }
 
 section#category section.wrapper div.categories ul li { 
-  width: 14%;
-
+  width: 100%;
+  padding: 15px;
+  background: hsl(0, 0%, 97%);
   
  
 
@@ -529,212 +531,246 @@ section#category section.wrapper div.categories ul li h5 {
 
 }
 
-section#offer { 
-  padding: 70px 0px;
-}
-
-section#offer section.wrapper { 
+#gallery{
+  padding: 120px 0;
 
 }
+#gallery section.wrapper{
 
-section#offer section.wrapper div.container { 
+}
+#gallery section.wrapper section.container{
   display: flex;
   justify-content: space-between;
-
-}
-
-section#offer section.wrapper div.container div.left { 
-  width: 68%;
-}
-
-section#offer section.wrapper div.container div.left ul { 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-}
-
-section#offer section.wrapper div.container div.left ul li { 
-  display: inline-block;
-  width: 49%;
-  height: 390px;
-  position: relative;
-
-}
-section#offer section.wrapper div.container div.left ul li:first-child{
   width: 100%;
-  margin-bottom: 2%;
-}
-
-section#offer section.wrapper div.container div.left ul li a { 
-  display: inline-block;
-  width: 100%;
-  height: 100%;
+  
+  
 
 }
+#gallery section.wrapper section.container div.left{
+  width: 63%;
 
-section#offer section.wrapper div.container div.left ul li a img {
-  width: 100%;
-  height: 100%; 
 
-}
-
-section#offer section.wrapper div.container div.left ul li div.content { 
-  position: absolute;
-  top: 0px;
-  left: 20px;
-  width: 60%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-
-}
-section#offer section.wrapper div.container div.left ul li:nth-child(2) div.content{
-  justify-content: space-around;
-}
-
-section#offer section.wrapper div.container div.left ul li div.content div.heading { 
-
-}
-
-section#offer section.wrapper div.container div.left ul li div.content div.heading h3 { 
-  font-size: 26px;
-  color: #000;
-  font-weight: 500;
-
-}
-section#offer section.wrapper div.container div.left ul li:first-child.content div.heading h3{
-  font-size: 30px;
-  color: #fff;
-
-}
-section#offer section.wrapper div.container div.left ul li:nth-child(3).content div.heading h3{
-    font-size: 24px;}
-section#offer section.wrapper div.container div.left ul li div.content div.heading p { 
-  font-size: 26px;
-  font-weight: 500;
-  color: #000;
   
 }
-section#offer section.wrapper div.container div.left ul li:first-child div.content div.heading p{
-  font-size: 30px;
+
+#gallery section.wrapper section.container div.left div.top{
+  background:url("../images/Organic-Product.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+ 
+ 
+
+
+}
+#gallery section.wrapper section.container div.left div.top div.top_left{
+  padding-top: 20px;
+  width: 50%;
+  margin-left: 20px;
   color: #fff;
+  
 }
-section#offer section.wrapper div.container div.left ul li:nth-child(3) div.content div.heading p{
-  font-size: 24px;
+#gallery section.wrapper section.container div.left div.top div.top_left h1{
+  font-size:26px;
+  
+  
+  
 }
-
-section#offer section.wrapper div.container div.left ul li div.content div.rupees { 
-  color: #fff;
-
+#gallery section.wrapper section.container div.left div.top div.top_left h3{
+  font-size: 26px;
+  margin-bottom: 50px;
+  
 }
-
-section#offer section.wrapper div.container div.left ul li div.content div.rupees span { 
-  margin-right: 20px;
-  font-size: 28px;
-
-}
-section#offer section.wrapper div.container div.left ul li div.content span{
-  font-size: 51px;
-  color: #cb1a1a;
-
+#gallery section.wrapper section.container div.left div.top div.top_left div.text{
+ display: flex;
+ justify-content: space-around;
+ margin-bottom: 70px;
 }
 
-section#offer section.wrapper div.container div.left ul li div.content span small { 
-  font-size: 20px;
-
+#gallery section.wrapper section.container div.left div.top div.top_left div.text span{
+  display:block;
+  
 }
 
-section#offer section.wrapper div.container div.left ul li div.content a.button { 
-  text-align: center;
-  width: 60%;
-  padding: 19px 8px;
-  color: #8e8e8e;
-  font-size: 17px;
+#gallery section.wrapper section.container div.left div.top div.top_left div.text small{
+  display:block;
+  
+}
+#gallery section.wrapper section.container div.left div.top_right{
+  width: 50%;
+  padding: 10px 0;
 
 }
-section#offer section.wrapper div.container div.left ul li:first-child div.content a.button{
-  text-align: center;
-  width: 30%;
-  padding: 20px 45px;
+#gallery section.wrapper section.container div.left div.top div.top_left a.button{
+  padding: 15px 25px;
   background: #fff;
-  color: #8e8e8e;
-  font-size: 17px;
-
-}
-
-section#offer section.wrapper div.container div.left ul li div.offer_Tag { 
-  position: absolute;
-  top: 25px;
-  right: 35px;
-  background-color: #fff;
-  height: 30%;
-  width: 12%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-
-}
-
-section#offer section.wrapper div.container div.left ul li div.offer_Tag h4 { 
-  font-weight: 600;
-  font-size: 22px;
-
-}
-
-section#offer section.wrapper div.container div.left ul li div.offer_Tag small { 
-  color: #8e8e8e;
-  font-size: 12px;
-
-}
-
-section#offer section.wrapper div.container div.right { 
-  width: 30%;
-  position: relative;
-
-}
-
-section#offer section.wrapper div.container div.right div.img { 
+  border-radius: 5px;
   display: inline-block;
-  width: 100%;
-  height: 100%;
+  margin-bottom: 10px;
+}
+
+#gallery section.wrapper section.container div.left div.top_right{
+  width: 50%;
+ 
+}
+#gallery section.wrapper section.container div.left div.top_right a.button{
+  padding: 25px 5px;
+  background: #fff;
+  border-radius:50% ;
+  display: inline-block;
+  width: 50px;
+
 
 }
 
-section#offer section.wrapper div.container div.right div.img img { 
-  height: 100%;
-  width: 100%;
-
-}
-
-section#offer section.wrapper div.container div.right div.content { 
-  position: absolute;
-  top: 0;
-  left: 25px;
-  height: 30%;
-  width: 60%;
+#gallery section.wrapper section.container div.bottom{
+  margin-top: 20px;
+  width:100% ;
+  height: 49%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+
+}
+#gallery section.wrapper section.container div.bottom div.bottom_left{
+  width: 49%;
+  background: url("../images/All-Smoothie.jpg") no-repeat;
+  background-size: cover;
+}
+#gallery section.wrapper section.container div.bottom div.bottom_left h2{
+  font-size: 28px;
+  margin-top: 20px;
+  margin-left: 20px;
+ 
+
+}
+#gallery section.wrapper section.container div.bottom div.bottom_left h3{
+  font-size: 28px;
+  
+  margin-left: 20px;
+  
+}
+#gallery section.wrapper section.container div.bottom div.bottom_left a.button{
+  padding: 15px 25px;
+  background: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+#gallery section.wrapper section.container div.bottom div.bottom_right{
+  width: 48%;
+  background: url("../images/Everyday-Fresh.jpg") no-repeat;
+  background-size: cover;
+
+}
+#gallery section.wrapper section.container div.bottom div.bottom_right h2{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 26px;
+
+}
+#gallery section.wrapper section.container div.bottom div.bottom_right h3{
+  margin-left: 20px;
+
+  font-size: 26px;
+}
+#gallery section.wrapper section.container div.bottom div.bottom_right h1{
+  font-size: 26px;
+  margin-top: 20px;
+  color: #CB1A1A;
+  margin-left: 20px;
+
+}
+#gallery section.wrapper section.container div.bottom div.bottom_right a.button{
+  padding: 15px 25px;
+  background: #5ca26e;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
 
 }
 
-section#offer section.wrapper div.container div.right div.content h4 {
-  font-size: 29px; 
+#gallery section.wrapper section.container div.right{
+  width: 35%;
+  
+
+  background:url("../images/Sale-img-kiwi.jpg") no-repeat;
+  background-size:cover;
 
 }
-
-section#offer section.wrapper div.container div.right div.content p { 
-  font-size: 12px;
-  color: #8e8e8e;
-
-}
-
-section#offer section.wrapper div.container div.right div.content span { 
-  color: #8e8e8e;
-  font-size: 18px;
+#gallery section.wrapper section.container  div.right h2{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 26px;
 
 }
+#gallery section.wrapper section.container div.right small{
+  margin-left: 20px;
+  margin-top: 20px;
+  
+  display: block;
+}
+#gallery section.wrapper section.container  div.right h3{
+  font-size: 16px;
+  color: #979aa0;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#our_products{
+
+
+}
+#our_products section.wrapper{
+
+}
+#our_products section.wrapper section.product{
+
+}
+#our_products section.wrapper section.product div.top{
+  display: flex;
+  justify-content: space-between;
+}
+#our_products section.wrapper section.product div.top div.left{
+  border-left: 2px solid #253858;
+}
+#our_products section.wrapper section.product div.top div.left h2{
+  font-size: 24px;
+  color: #000;
+  padding: 10px;
+  font-weight: 600;
+}
+#our_products section.wrapper section.product div.top div.right{
+
+}
+#our_products section.wrapper section.product div.top div.right ul{
+  display: flex;
+  justify-content: space-between;
+}
+#our_products section.wrapper section.product div.top div.right ul li{
+  margin-right: 20px;
+}
+#our_products section.wrapper section.product div.top div.right ul li:last-child{
+  margin-right: 0;
+}
+#our_products section.wrapper section.product div.top div.right ul li a{
+  font-size: 16px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
