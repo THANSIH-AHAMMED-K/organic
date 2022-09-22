@@ -1236,6 +1236,79 @@ section#best_seller section.wrapper div.bottom ul  li span {
   font-size: 12px;
 
 }
+section.brand { 
+  padding: 20px 0;
+
+}
+
+section.brand section.wrapper { 
+
+}
+
+section.brand section.wrapper ul { 
+  display: flex;
+  justify-content: space-between;
+
+}
+
+section.brand section.wrapper ul li { 
+ width: 170px;
+
+
+}
+
+section.brand section.wrapper ul li img { 
+  display: block;
+  width: 100%;
+
+
+}
+section#banner { 
+  padding: 70px 0;
+
+}
+
+section#banner section.wrapper { 
+
+}
+
+section#banner section.wrapper div.main { 
+  background: url("../images/Free-Shipping.jpg") no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+
+}
+
+section#banner section.wrapper div.main div.left_content { 
+  width:40%;
+  padding: 30px;
+
+}
+
+section#banner section.wrapper div.main div.left_content h1 { 
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Inter_Regular";
+  margin-bottom: 20px;
+
+}
+
+section#banner section.wrapper div.main div.left_content p { 
+  font-family: "Inter_Regular";
+  font-size: 16px;
+  color: #8E8E8E;
+  margin-bottom: 50px;
+
+}
+
+section#banner section.wrapper div.main div.left_content a.button { 
+  padding:15px 25px;
+  display: inline-block;
+  color: #c8c8c8;
+  background: #5ca26e;
+  margin-bottom: 30px;
+
+}
 
 
 
