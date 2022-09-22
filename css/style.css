@@ -781,10 +781,10 @@ section#our_products section.wrapper section.product div.bottom ul {
 }
 
 section#our_products section.wrapper section.product div.bottom ul li { 
-  
-
-  width: 20%;
-  margin-bottom: 10px;
+  background: #f7faff;
+ 
+  width: 18%;
+  margin-bottom: 40px;
 
 }
 
@@ -800,16 +800,16 @@ section#our_products section.wrapper section.product div.bottom ul li a.button {
 
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(2) a.button{
-  background:#fff;
+  background:#f7faff;
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(4) a.button{
-  background:#fff;
+  background:#f7faff;
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(7) a.button{
-  background:#fff;
+  background:#f7faff;
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(9) a.button{
-  background:#fff;
+  background:#f7faff;
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(5) a.button { 
   padding: 10px 15px;
@@ -823,7 +823,7 @@ section#our_products section.wrapper section.product div.bottom ul li:nth-child(
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(10) a.button { 
   padding: 10px 15px;
-  background: #a6a6a6;;
+  background: #a6a6a6;
   color: #fff;
   border-radius: 10px;
   font-size: 18px;
@@ -880,8 +880,73 @@ section#our_products section.wrapper section.product div.bottom ul li span {
   display: inline-block;
   margin-bottom: 20px;
   background: #e3e3e3;
-  font-size: 12px;m
+  font-size: 12px;
   
+
+}
+section#services { 
+  padding:50px 0;
+  
+
+}
+
+section#services section.wrapper { 
+
+}
+
+section#services section.wrapper div.service { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+section#services section.wrapper div.service div.service_item { 
+  width:25%;
+  
+  display: flex;
+ 
+  align-items: center;
+ 
+  border-right: 2px solid gray;
+  height: 20px;
+  margin-right: 20px;
+  
+
+}
+section#services section.wrapper div.service div.service_item:last-child{
+  border: none;
+}
+
+section#services section.wrapper div.service div.service_item div.left_img { 
+ width: 60px;
+ margin-left: 20px;
+}
+section#services section.wrapper div.service div.service_item:first-child div.left_img{
+ margin-left: 0;
+}
+
+section#services section.wrapper div.service div.service_item div.left_img img { 
+  display: block;
+  width: 100%;
+
+}
+
+section#services section.wrapper div.service div.service_item div.right_content { 
+  margin-left: 20px;
+
+}
+
+section#services section.wrapper div.service div.service_item div.right_content h2 { 
+  font-size: 16px;
+  color: #8E8E8E;
+ 
+
+}
+
+section#services section.wrapper div.service div.service_item div.right_content h3 { 
+  font-size: 12px;
+  color: #A6A6A6;
 
 }
 
