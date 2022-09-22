@@ -746,7 +746,7 @@ section#category section.wrapper div.categories ul li h5 {
   font-size: 24px;
   color: #000;
   padding: 10px;
-  font-weight: 600;
+  font-weight: bold
 }
 #our_products section.wrapper section.product div.top div.right{
 
@@ -787,7 +787,7 @@ section#our_products section.wrapper section.product div.bottom ul li {
   background: #f7faff;
  
   width: 18%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 
 }
 
@@ -843,7 +843,7 @@ section#our_products section.wrapper section.product div.bottom ul li div.img {
 section#our_products section.wrapper section.product div.bottom ul li div.img img { 
   display: block;
   width: 100%;
- margin-top: 20px;
+   margin-top: 20px;
  
 
 
@@ -1090,6 +1090,150 @@ section#testimonial section.wrapper section.container div.right div.arrow_right 
   display: block;
   width: 100%;
   margin-bottom: 20px;
+
+}
+section#best_seller { 
+  padding: 20px 0;
+
+}
+
+section#best_seller section.wrapper { 
+
+}
+
+section#best_seller section.wrapper div.top { 
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+section#best_seller section.wrapper div.top div.left { 
+  border-left: 2px solid #253858;
+
+}
+
+section#best_seller section.wrapper div.top div.left h2 { 
+
+
+}
+
+section#best_seller section.wrapper div.top div.left h2 a { 
+  font-size: 24px;
+  color: #000;
+  padding: 10px;
+  font-weight: bold;
+
+}
+
+section#best_seller section.wrapper div.top div.right { 
+
+}
+
+section#best_seller section.wrapper div.top div.right h3 { 
+
+}
+
+section#best_seller section.wrapper div.top div.right h3 a { 
+  font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #5ca26e;
+    color: #5ca26e;
+
+}
+
+section#best_seller section.wrapper div.bottom { 
+  width: 100%;
+
+}
+
+section#best_seller section.wrapper div.bottom ul { 
+  display: flex;
+  justify-content: space-between;
+
+}
+
+section#best_seller section.wrapper div.bottom ul { 
+
+}
+
+section#best_seller section.wrapper div.bottom ul  li { 
+  background: #f7faff;
+    width: 18%;
+    margin-bottom: 10px;
+
+}
+
+section#best_seller section.wrapper div.bottom ul  li a.button { 
+  padding: 10px 15px;
+  background: #cc1a1a;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 600;
+
+}
+section#best_seller section.wrapper div.bottom ul  li:nth-child(2) a.button { 
+  background: #f7faff;
+}
+section#best_seller section.wrapper div.bottom ul  li:nth-child(4) a.button { 
+  background: #f7faff;
+}
+section#best_seller section.wrapper div.bottom ul  li:nth-child(5) a.button { 
+  padding: 10px 15px;
+    background: #a6a6a6;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+
+}
+
+
+
+section#best_seller section.wrapper div.bottom ul  li div.img { 
+ width: 100px;
+}
+
+section#best_seller section.wrapper div.bottom ul  li div.img img { 
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+
+
+}
+
+section#best_seller section.wrapper div.bottom ul  li h3 { 
+  font-size: 14px;
+  font-weight: 600;
+
+}
+
+section#best_seller section.wrapper div.bottom ul  li ul { 
+  display: flex;
+  justify-content: revert;
+  align-items: center;
+
+}
+
+section#best_seller section.wrapper div.bottom ul  li ul li { 
+  width: 6%;
+}
+
+section#best_seller section.wrapper div.bottom ul  li ul li img { 
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+section#best_seller section.wrapper div.bottom ul  li span { 
+  display: inline-block;
+  margin-bottom: 20px;
+  background: #e3e3e3;
+  font-size: 12px;
 
 }
 
