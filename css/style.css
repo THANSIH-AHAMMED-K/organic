@@ -908,7 +908,7 @@ section#services section.wrapper div.service div.service_item {
  
   align-items: center;
  
-  border-right: 2px solid gray;
+  border-right: 2px solid #A6A6A6;
   height: 20px;
   margin-right: 20px;
   
@@ -958,10 +958,18 @@ section#testimonial section.wrapper {
 }
 
 section#testimonial section.wrapper section.container { 
-
+  background: #f7faff;
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  
 }
 
 section#testimonial section.wrapper section.container div.left { 
+  display: flex;
+  justify-content: start;
+
 
 }
 
@@ -970,58 +978,104 @@ section#testimonial section.wrapper section.container div.left div.arrow_left {
 }
 
 section#testimonial section.wrapper section.container div.left div.arrow_left img { 
+  display: block;
+  width: 100%;
 
 }
 
 section#testimonial section.wrapper section.container div.middle { 
+  width: 100%;
+  text-align: center;
+  
 
 }
 
 section#testimonial section.wrapper section.container div.middle div.top { 
+  width: 50%;
+  margin: 20px auto;
+  
+  text-align: center;
 
 }
 
 section#testimonial section.wrapper section.container div.middle div.top div.quotes { 
-
+width: 50px;
+margin: 0 auto;
 }
 
 section#testimonial section.wrapper section.container div.middle div.top div.quotes img { 
+  display: block;
+  width: 100%;
 
 }
 
 section#testimonial section.wrapper section.container div.middle div.top h2 { 
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 20px;
 
 }
 
 section#testimonial section.wrapper section.container div.middle div.top p { 
+  font-size: 16px;
+  color: #A6A6A6;
+  font-family:"inter_regular";
+  margin-top: 20px;
 
 }
 
 section#testimonial section.wrapper section.container div.middle div.bottom { 
+  
+text-align: center;
+align-items: center;
+display: flex;
+margin-left: 47%;
+
+
+
+ 
+  
 
 }
 
 section#testimonial section.wrapper section.container div.middle div.bottom div.pic { 
 
+ 
+
 }
 
 section#testimonial section.wrapper section.container div.middle div.bottom div.pic img { 
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 20px 0 40px;
+
+  
+
 
 }
 
 section#testimonial section.wrapper section.container div.middle div.bottom div.idtity { 
 
+
 }
 
 section#testimonial section.wrapper section.container div.middle div.bottom div.idtity h5 { 
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
 
 }
 
 section#testimonial section.wrapper section.container div.middle div.bottom div.idtity p { 
+  font-size: 12px;
+ color: #979aa0;
 
 }
 
 section#testimonial section.wrapper section.container div.right { 
+  display: flex;
+  justify-content: end;
 
 }
 
@@ -1030,6 +1084,8 @@ section#testimonial section.wrapper section.container div.right div.arrow_right 
 }
 
 section#testimonial section.wrapper section.container div.right div.arrow_right img { 
+  display: block;
+  width: 100%;
 
 }
 
