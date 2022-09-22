@@ -731,10 +731,13 @@ section#category section.wrapper div.categories ul li h5 {
 }
 #our_products section.wrapper section.product{
 
+
 }
 #our_products section.wrapper section.product div.top{
   display: flex;
   justify-content: space-between;
+ 
+  align-items: center;
 }
 #our_products section.wrapper section.product div.top div.left{
   border-left: 2px solid #253858;
@@ -1086,6 +1089,7 @@ section#testimonial section.wrapper section.container div.right div.arrow_right 
 section#testimonial section.wrapper section.container div.right div.arrow_right img { 
   display: block;
   width: 100%;
+  margin-bottom: 20px;
 
 }
 
