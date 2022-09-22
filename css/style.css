@@ -1310,6 +1310,7 @@ section#banner section.wrapper div.main div.left_content a.button {
 
 }
 footer { 
+  padding: 120px 0;
 
 }
 
@@ -1318,6 +1319,8 @@ footer section.wrapper {
 }
 
 footer section.wrapper div.content { 
+  display: flex;
+  justify-content: space-between;
 
 }
 
@@ -1326,50 +1329,77 @@ footer section.wrapper div.content div.left {
 }
 
 footer section.wrapper div.content div.left h2 { 
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #5ca26e;
 
 }
 
 footer section.wrapper div.content div.left div.media { 
+  
+  
 
 }
 
 footer section.wrapper div.content div.left div.media ul { 
+  display: flex;
+  justify-content: space-between;
 
 }
 
 footer section.wrapper div.content div.left div.media ul li { 
+ 
 
 }
 
 footer section.wrapper div.content div.left div.media ul li a { 
 
+
 }
 
 footer section.wrapper div.content div.left div.media ul li a img { 
+  display: block;
+  width: 100%;
 
 }
 
 footer section.wrapper div.content div.left div.media div.copyright { 
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
 
 }
 
 footer section.wrapper div.content div.left div.media div.copyright img { 
+  
+  display: inline-block;
 
 }
 
 footer section.wrapper div.content div.left div.media div.copyright p { 
+  font-size: 12px;
+  font-family:"Inter_SemiBold";
+  
+
 
 }
 
 footer section.wrapper div.content div.middle { 
+  display: flex;
+  justify-content: space-between;
 
 }
 
-footer section.wrapper div.content div.middle div.middle-left { 
+footer section.wrapper div.content div.middle div.middle-left {
+  margin-right: 100px; 
 
 }
 
 footer section.wrapper div.content div.middle div.middle-left h2 { 
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
 
 }
 
@@ -1378,10 +1408,14 @@ footer section.wrapper div.content div.middle div.middle-left ul {
 }
 
 footer section.wrapper div.content div.middle div.middle-left ul li { 
+  margin-bottom: 22px;
+ 
 
 }
 
 footer section.wrapper div.content div.middle div.middle-left ul li a { 
+  font-family:  "Inter_Regular";
+  color: #a6a6a6;
 
 }
 
@@ -1390,31 +1424,76 @@ footer section.wrapper div.content div.middle div.middle-right {
 }
 
 footer section.wrapper div.content div.middle div.middle-right h2 { 
+  font-size:22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.9;
 
 }
 
-footer section.wrapper div.content div.middle div.middle-right p { 
+footer section.wrapper div.content div.middle div.middle-right p {
+  font-family:  "Inter_Regular";
+  color: #a6a6a6;
+  margin-bottom: 22px;
+ 
 
 }
 
-footer section.wrapper div.content div.middle div.middle-right p br { 
+footer section.wrapper div.content div.middle div.middle-right p  { 
 
 }
 
 footer section.wrapper div.content div.middle div.middle-right h4 { 
+  font-family:  "Inter_Regular";
+  color: #a6a6a6;
+  margin-bottom: 22px;
+ 
 
 }
 
 footer section.wrapper div.content div.middle div.middle-right h5 { 
+  font-family:  "Inter_Regular";
+  color: #a6a6a6;
+  margin-bottom: 22px;
+ 
 
 }
-footer section.wrapper div.content div.middle div.left{
+footer section.wrapper div.content  div.right{
 
 }
-footer section.wrapper div.content div.middle div.left h2{
+footer section.wrapper div.content  div.right h2{
+  font-size:22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  
+}
+footer section.wrapper div.content  div.right div.payment{
+  
+
 
 }
-footer section.wrapper div.content div.middle div.left ul{}
+footer section.wrapper div.content  div.right ul.card_pay{
+  display: flex;
+
+}
+footer section.wrapper div.content  div.right ul.card_pay li{
+}
+footer section.wrapper div.content  div.right ul.card_pay li  a{
+
+}
+footer section.wrapper div.content  div.right ul.online_pay{
+  display: flex;
+
+}
+footer section.wrapper div.content  div.right ul.online_pay li{
+
+}
+footer section.wrapper div.content  div.right ul.online_pay li a{
+
+}
+footer section.wrapper div.content  div.right ul.online_pay li a img{
+  display: block;
+  width: 100%;
 
 
 
