@@ -707,6 +707,7 @@ section#category section.wrapper div.categories ul li h5 {
   margin-top: 20px;
   font-size: 26px;
 
+
 }
 #gallery section.wrapper section.container div.right small{
   margin-left: 20px;
@@ -753,12 +754,15 @@ section#category section.wrapper div.categories ul li h5 {
 }
 #our_products section.wrapper section.product div.top div.right ul li{
   margin-right: 20px;
+ 
+
 }
 #our_products section.wrapper section.product div.top div.right ul li:last-child{
   margin-right: 0;
 }
 #our_products section.wrapper section.product div.top div.right ul li a{
-  font-size: 16px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 
@@ -772,12 +776,15 @@ section#our_products section.wrapper section.product div.bottom ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  
 
 }
 
 section#our_products section.wrapper section.product div.bottom ul li { 
+  
 
   width: 20%;
+  margin-bottom: 10px;
 
 }
 
@@ -786,18 +793,32 @@ section#our_products section.wrapper section.product div.bottom ul li a.button {
   background: #cc1a1a;
   color: #fff;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
+  font-weight:600;
   
 
+}
+section#our_products section.wrapper section.product div.bottom ul li:nth-child(2) a.button{
+  background:#fff;
+}
+section#our_products section.wrapper section.product div.bottom ul li:nth-child(4) a.button{
+  background:#fff;
+}
+section#our_products section.wrapper section.product div.bottom ul li:nth-child(7) a.button{
+  background:#fff;
+}
+section#our_products section.wrapper section.product div.bottom ul li:nth-child(9) a.button{
+  background:#fff;
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(5) a.button { 
   padding: 10px 15px;
   background: #a6a6a6;;
   color: #fff;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
+  font-weight:600;
 
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(10) a.button { 
@@ -805,50 +826,62 @@ section#our_products section.wrapper section.product div.bottom ul li:nth-child(
   background: #a6a6a6;;
   color: #fff;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
+  font-weight:600;
 
 }
 
 section#our_products section.wrapper section.product div.bottom ul li div.img { 
  width: 100px;
- margin-top: 20px;
+ 
 }
 
 section#our_products section.wrapper section.product div.bottom ul li div.img img { 
   display: block;
   width: 100%;
+ margin-top: 20px;
+ 
+
 
 }
 
 section#our_products section.wrapper section.product div.bottom ul li h3 { 
   font-size:14px;
   font-weight:600;
+  
 
 }
 
 section#our_products section.wrapper section.product div.bottom ul li ul { 
   display: flex;
   justify-content: revert;
+  align-items: center;
   
 
 }
 
 section#our_products section.wrapper section.product div.bottom ul li ul li { 
  width:6%;
+ 
 
 }
 
 section#our_products section.wrapper section.product div.bottom ul li ul li img { 
   display: block;
   width: 100%;
+  margin-top: 10px;
+
+  
 
 }
 
 section#our_products section.wrapper section.product div.bottom ul li span { 
   display: inline-block;
   margin-bottom: 20px;
-  background: #a6a6a6;
+  background: #e3e3e3;
+  font-size: 12px;m
+  
 
 }
 
