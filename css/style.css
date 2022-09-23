@@ -338,7 +338,7 @@ header section.wrapper div.bottom div.middle.right  img {
  
 }
 section.spotlight { 
-  padding: 120px 0;
+  padding: 80px 0;
   background: url(/images/Landing-Background.jpg);
 
 }
@@ -547,7 +547,7 @@ section#category section.wrapper div.categories ul li h5 {
 }
 
 #gallery{
-  padding:100px 0;
+  padding:80px 0;
 
 }
 #gallery section.wrapper{
@@ -750,6 +750,7 @@ section#category section.wrapper div.categories ul li h5 {
 }
 
 #our_products{
+  padding: 40px 0;
 
 
 }
@@ -827,7 +828,7 @@ section#our_products section.wrapper section.product div.bottom ul li a.button {
   padding: 10px 15px;
   background: #cc1a1a;
   color: #fff;
-
+  border-radius: 20px;
   font-size: 18px;
   text-align: left;
   font-family:"Inter_Regular";
@@ -950,6 +951,7 @@ section#our_products section.wrapper section.product div.bottom ul li span {
   margin-bottom: 20px;
   background: #e3e3e3;
   font-size: 12px;
+
   
   
 
@@ -1240,7 +1242,7 @@ section#best_seller section.wrapper div.bottom ul  li a.button {
   padding: 10px 15px;
   background: #cc1a1a;
   color: #fff;
-
+  border-radius: 20px;
   font-size: 18px;
   text-align: left;
 
@@ -1258,7 +1260,7 @@ section#best_seller section.wrapper div.bottom ul  li:nth-child(5) a.button {
   padding: 10px 15px;
     background: #a6a6a6;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 18px;
     text-align: left;
     font-family:"Inter_Regular";
@@ -1598,6 +1600,7 @@ footer section.wrapper div.content  div.right ul.online_pay li a img{
   }
   section#category section.wrapper div.categories ul li{
     width: 26%;
+    margin-top: 20px;
     
   }
   section#our_products section.wrapper section.product div.bottom ul{
@@ -1637,13 +1640,97 @@ section#our_products section.wrapper section.product div.bottom ul li:last-child
   margin-bottom: 0;
 
 }
+}
 
  
 
 @media all and (max-width:768px){
+  header section.wrapper div.top div.contact div.items{
+    flex-wrap: wrap;
+  }
+  header section.wrapper div.top div.contact div.item:last-child{
+    margin-top: 30px;
+  }
+  section.spotlight section.wrapper section.image_container{
+    flex-direction: column;
+    align-items: center;
+  }
+  section.spotlight section.wrapper section.image_container div.first_image{
+    width: 80%;
+  }
+  section.spotlight section.wrapper section.image_container div.second_image {
+    width: 80%;
+    margin-top: 40px;
+    height: 70vh;
+  }
+  section#category section.wrapper div.categories ul li{
+    width: 30%;
+  }
+  #our_products section.wrapper section.product div.top div.right{
+    display: none;
+  }
+  #gallery section.wrapper section.container{
+    flex-direction: column;
+    align-items: center;
+  }
+  #gallery section.wrapper section.container div.left{
+    width: 90%;
+    
+  }
+  #gallery section.wrapper section.container div.right{
+    width: 90%;
+    height: 100vh;
+    margin-top: 30px;
+  }
+  section#our_products section.wrapper section.product div.bottom ul li{
+    width: 30%;
+  }
+  section.services section.wrapper section.container ul li{
+    width: 40%;
+  }
+  section#testimonial section.wrapper section.container div.middle div.top div.quotes {
+  
+  width: 45px;}
+  section#testimonial section.wrapper section.container div.middle div.top h2{
+    font-size: 26px;
+  }
+  section#testimonial section.wrapper section.container div.middle div.top p{
+    font-size: 15px;
+  }
+  section#testimonial section.wrapper section.container div.middle div.bottom {
+    margin-left: 41%;
+  }
+  section#best_seller section.wrapper div.bottom ul li{
+    width: 30%;
+    margin-top: 20px;
+
+  }
+  section#banner section.wrapper div.main div.left_content h1 {
+   font-size: 20px;
+  }
+  section#banner section.wrapper div.main div.left_content p {
+   font-size: 13px;
+  }
+  footer section.wrapper div.content{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  footer section.wrapper div.content div.middle{
+    margin: 50px 0;
+  }
+
+
   
 }
 @media all and (max-width:640px){
+  header section.wrapper div.top div.social p{
+    display: none;
+  }
+  header section.wrapper div.top div.social {
+   margin: 0 auto;
+  }
+
   
 }
 @media all and (max-width:480px){
