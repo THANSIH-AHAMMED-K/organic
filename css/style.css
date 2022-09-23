@@ -445,7 +445,7 @@ section.spotlight section.wrapper section.image_container div.second_image div.c
 
 }
 section#category { 
-  padding: 70px 0;
+ 
 }
 
 section#category section.wrapper { 
@@ -504,7 +504,7 @@ section#category section.wrapper div.categories ul {
 }
 
 section#category section.wrapper div.categories ul li { 
-  width: 100%;
+  width: 13%;
   padding: 15px;
   background: hsl(0, 0%, 97%);
   
@@ -532,7 +532,7 @@ section#category section.wrapper div.categories ul li h5 {
 }
 
 #gallery{
-  padding: 120px 0;
+  padding:100px 0;
 
 }
 #gallery section.wrapper{
@@ -803,16 +803,18 @@ section#our_products section.wrapper section.product div.bottom ul li a.button {
 
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(2) a.button{
-  background:#f7faff;
+  display: none;
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(4) a.button{
-  background:#f7faff;
+  display: none;
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(7) a.button{
-  background:#f7faff;
+  display: none;
+  
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(9) a.button{
-  background:#f7faff;
+  display: none;
+  
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(5) a.button { 
   padding: 10px 15px;
@@ -887,69 +889,66 @@ section#our_products section.wrapper section.product div.bottom ul li span {
   
 
 }
-section#services { 
-  padding:50px 0;
-  
+section.services {
+  padding: 80px 0; 
 
 }
 
-section#services section.wrapper { 
+section.services section.wrapper { 
 
 }
 
-section#services section.wrapper div.service { 
+section.services section.wrapper section.container { 
+
+}
+
+section.services section.wrapper section.container ul { 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-section#services section.wrapper div.service div.service_item { 
-  width:25%;
-  
+section.services section.wrapper section.container ul li { 
   display: flex;
- 
-  align-items: center;
- 
-  border-right: 2px solid #A6A6A6;
-  height: 20px;
-  margin-right: 20px;
-  
+    align-items: center;
+    width: 20%;
+    border-right: 2px solid #878787;
+    margin-left: 40px;
+    height: 20px;
 
 }
-section#services section.wrapper div.service div.service_item:last-child{
-  border: none;
+section.services section.wrapper section.container ul li:last-child{
+  border-right: none;
 }
 
-section#services section.wrapper div.service div.service_item div.left_img { 
- width: 60px;
- margin-left: 20px;
-}
-section#services section.wrapper div.service div.service_item:first-child div.left_img{
- margin-left: 0;
+section.services section.wrapper section.container ul li div.imag { 
+  margin-right: 15px;
+    width: 30%;
 }
 
-section#services section.wrapper div.service div.service_item div.left_img img { 
+
+
+section.services section.wrapper section.container ul li div.imag img { 
   display: block;
   width: 100%;
 
 }
 
-section#services section.wrapper div.service div.service_item div.right_content { 
-  margin-left: 20px;
+section.services section.wrapper section.container ul li div.text { 
+
 
 }
 
-section#services section.wrapper div.service div.service_item div.right_content h2 { 
-  font-size: 16px;
-  color: #8E8E8E;
- 
+section.services section.wrapper section.container ul li div.text h2 { 
+  font-size: 15px;
+  color: #9a9a9a;
 
 }
 
-section#services section.wrapper div.service div.service_item div.right_content h3 { 
-  font-size: 12px;
-  color: #A6A6A6;
+section.services section.wrapper section.container ul li div.text h3 { 
+  font-size: 10px;
+  color: #8e8e8e;
 
 }
 section#testimonial { 
@@ -1176,10 +1175,11 @@ section#best_seller section.wrapper div.bottom ul  li a.button {
 
 }
 section#best_seller section.wrapper div.bottom ul  li:nth-child(2) a.button { 
-  background: #f7faff;
+  display: none;
 }
 section#best_seller section.wrapper div.bottom ul  li:nth-child(4) a.button { 
-  background: #f7faff;
+  display: none;
+
 }
 section#best_seller section.wrapper div.bottom ul  li:nth-child(5) a.button { 
   padding: 10px 15px;
@@ -1237,7 +1237,7 @@ section#best_seller section.wrapper div.bottom ul  li span {
 
 }
 section.brand { 
-  padding: 20px 0;
+  padding: 50px 0;
 
 }
 
@@ -1264,7 +1264,7 @@ section.brand section.wrapper ul li img {
 
 }
 section#banner { 
-  padding: 70px 0;
+  padding: 0;
 
 }
 
@@ -1310,7 +1310,8 @@ section#banner section.wrapper div.main div.left_content a.button {
 
 }
 footer { 
-  padding: 120px 0;
+  padding:80px 0;
+
 
 }
 
@@ -1329,7 +1330,7 @@ footer section.wrapper div.content div.left {
 }
 
 footer section.wrapper div.content div.left h2 { 
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 20px;
   color: #5ca26e;
@@ -1397,7 +1398,7 @@ footer section.wrapper div.content div.middle div.middle-left {
 }
 
 footer section.wrapper div.content div.middle div.middle-left h2 { 
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 700;
   margin-bottom: 20px;
 
@@ -1412,6 +1413,9 @@ footer section.wrapper div.content div.middle div.middle-left ul li {
  
 
 }
+footer section.wrapper div.content div.middle div.middle-left ul li:last-child{
+  margin-bottom: 0;
+}
 
 footer section.wrapper div.content div.middle div.middle-left ul li a { 
   font-family:  "Inter_Regular";
@@ -1424,8 +1428,8 @@ footer section.wrapper div.content div.middle div.middle-right {
 }
 
 footer section.wrapper div.content div.middle div.middle-right h2 { 
-  font-size:22px;
-  font-weight: 700;
+  font-size:16px;
+  font-weight: 600;
   margin-bottom: 20px;
   line-height: 1.9;
 
@@ -1439,9 +1443,7 @@ footer section.wrapper div.content div.middle div.middle-right p {
 
 }
 
-footer section.wrapper div.content div.middle div.middle-right p  { 
 
-}
 
 footer section.wrapper div.content div.middle div.middle-right h4 { 
   font-family:  "Inter_Regular";
@@ -1454,7 +1456,7 @@ footer section.wrapper div.content div.middle div.middle-right h4 {
 footer section.wrapper div.content div.middle div.middle-right h5 { 
   font-family:  "Inter_Regular";
   color: #a6a6a6;
-  margin-bottom: 22px;
+
  
 
 }
@@ -1462,8 +1464,8 @@ footer section.wrapper div.content  div.right{
 
 }
 footer section.wrapper div.content  div.right h2{
-  font-size:22px;
-  font-weight: 700;
+  font-size:16px;
+  font-weight: 600;
   margin-bottom: 20px;
   
 }
@@ -1494,6 +1496,64 @@ footer section.wrapper div.content  div.right ul.online_pay li a{
 footer section.wrapper div.content  div.right ul.online_pay li a img{
   display: block;
   width: 100%;
+}
+@media all and (max-width:1280px){
+
+}
+@media all and (max-width:980px){
+  header section.wrapper div.bottom div.middle nav{
+    display: none;
+  }
+  section#category section.wrapper div.categories ul{
+    flex-wrap: wrap;
+  }
+  section#category section.wrapper div.categories ul li{
+    width: 26%;
+  }
+  section#our_products section.wrapper section.product div.bottom ul{
+    flex-wrap: wrap;
+  }
+  section#our_products section.wrapper section.product div.bottom ul li{
+    width: 26%;
+  }
+  section#best_seller section.wrapper div.bottom ul{
+    flex-wrap: wrap;
+
+  }
+  section#best_seller section.wrapper div.bottom ul li{
+    width: 26%;
+  }
+  section#best_seller section.wrapper div.bottom ul{
+    flex-wrap: wrap;
+  }
+  section.services section.wrapper section.container ul{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  section.services section.wrapper section.container ul li{
+    width: 30%;
+    margin-top: 80px;
+  }
+  #shipping section.content ul li div.img {
+    width: 32%;
+    margin-right: 0;
+}
+
+ 
+
+@media all and (max-width:768px){
+  
+}
+@media all and (max-width:640px){
+  
+}
+@media all and (max-width:480px){
+  
+}
+@media all and (max-width:360px){
+  
+}
+
 
 
 
