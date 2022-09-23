@@ -1816,9 +1816,95 @@ section#banner section.wrapper div.main div.left_content{
   
 }
 @media all and (max-width:480px){
+ 
+  header section.wrapper div.top div.social{
+    display: none;
+ 
+  }
+ 
+  section.spotlight{
+    background-image: none;
+      
+  }
+  section.spotlight section.wrapper section.image_container div.first_image{
+    background-image: none;
+  }
+  section#category section.wrapper div.heading div.right{
+    display: none;
+  }
+  section#category section.wrapper div.heading{
+    margin-left: 50px;
+  }
+  section#category section.wrapper div.categories ul li {
+  width: 48%%;
+
+  }
+  section#category section.wrapper div.categories ul li a{
+    width: 60px;
+  }
+  #gallery section.wrapper section.container div.bottom{
+    flex-wrap: wrap;
+  }
+  #gallery section.wrapper section.container div.bottom div.bottom_left {
+  width: 100%;
+  }
+  #gallery section.wrapper section.container div.bottom div.bottom_right {
+   width: 100%;
+   margin-top: 20px;
+  }
+  #our_products section.wrapper section.product div.top{
+    margin-left: 80px;
+  }
+  section#our_products section.wrapper section.product div.bottom ul li{
+    width: 48%;
+  }
+  section#our_products section.wrapper section.product div.bottom ul li div.img {
+
+   width: 70px;
+  }
+  section#testimonial section.wrapper section.container div.middle div.top{
+    width: 100%;
+  }
+  section#best_seller section.wrapper div.top div.right{
+    display: none;
+  }
+  section#best_seller section.wrapper div.top{
+    margin-left: 48px;
+  }
+  section#best_seller section.wrapper div.bottom ul li div.img {
+
+    width: 70px;
+  }
+  section.brand section.wrapper ul li{
+    width: 30%;
+    margin-top: 30px;
+  }
+  section.brand section.wrapper ul li:first-child{
+    margin-top: 0;
+  }
+  section#banner section.wrapper div.main div.left_content{
+    padding: 0;
+  }
+
+
+ 
+
   
 }
 @media all and (max-width:360px){
+  section#category section.wrapper div.categories ul li {
+    width: 100%;
+
+  }
+  footer section.wrapper div.content div.middle{
+    flex-wrap: wrap;
+  }
+  footer section.wrapper div.content div.middle div.middle-right{
+    margin-top: 20px;
+  }
+  footer section.wrapper div.content div.left{
+    margin-right:145px ;
+  }
   
 }
 
