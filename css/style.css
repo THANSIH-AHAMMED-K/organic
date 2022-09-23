@@ -171,7 +171,7 @@ br.clear {
 }
 
 header {
-  height: 200px;
+  padding: 40px 0;
 }
 
 header section.wrapper {
@@ -181,7 +181,7 @@ header section.wrapper div.top {
 }
 
 header section.wrapper div.top div.social {
-  margin: 40px 0;
+  margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -199,11 +199,13 @@ header section.wrapper div.top div.social ul li:last-child {
 }
 
 header section.wrapper div.top div.social ul li a {
-  font-size: 12px;
+  font-size: 15px;
+  font-family:"Inter_SemiBold";
 }
 
 header section.wrapper div.top div.social p {
-  font-size: 12px;
+  font-size: 15px;
+  font-family:"Inter_SemiBold";
 }
 
 header section.wrapper div.top div.contact {
@@ -227,6 +229,7 @@ header section.wrapper div.top div.contact div.item div.left {
   display: flex;
   align-items: center;
   margin-right: 15px;
+
 }
 header section.wrapper div.top div.contact div.item div.left img {
   width: 100%;
@@ -237,26 +240,29 @@ header section.wrapper div.top div.contact div.item div.right {
 }
 header section.wrapper div.top div.contact div.item div.right a {
   display: block;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
 }
 header section.wrapper div.top div.contact div.item div.right a.trans {
   opacity: 50%;
   font-size: 15px;
   font-weight: normal;
+  font-family:"Inter_SemiBold";
 
   line-height: 1.9;
 }
 
 header section.wrapper div.top div.contact div.search {
-  font-size: 15px;
+  font-size: 14px;
+  font-family:"Inter_SemiBold";
 }
 
 header section.wrapper div.bottom {
-  height: 60px;
+  
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 header section.wrapper div.bottom div.left {
@@ -267,9 +273,10 @@ header section.wrapper div.bottom div.left h1 {
 }
 
 header section.wrapper div.bottom div.left h1 a {
-  font-size: 30px;
-  font-family: "Inter_Regular";
+  font-size: 36px;
+  font-family: "Inter_SemiBold";
   color: #5ca26e;
+  
 }
 
 header section.wrapper div.bottom div.middle {
@@ -295,15 +302,16 @@ header section.wrapper div.bottom div.middle nav ul li:last-child{
 }
 
 header section.wrapper div.bottom div.middle nav ul li a {
-  font-size: 13px;
+  font-size: 15px;
   display: inline-block;
   color: #000;
   font-weight: bold;
+  font-family:"Inter_Regular";
   
   
 }
 header section.wrapper div.bottom div.middle nav ul li a:hover{
-  border-top: 1px solid #000;
+  border-top: 2px solid #000;
 }
 
 header section.wrapper div.bottom div.middle.right {
@@ -316,9 +324,10 @@ header section.wrapper div.bottom div.middle.right h1 {
 header section.wrapper div.bottom div.middle.right h1 a {
   display: inline-block;
   color: #000;
-  font-size: 13px;
+  font-size: 15px;
   margin-right:5px;
   font-weight:500;
+  font-family:"Inter_SemiBold";
 }
 
 
@@ -444,7 +453,7 @@ section.spotlight section.wrapper section.image_container div.second_image div.c
   font-family:"Inter_SemiBold" ;
 
 }
-section#category { 
+section#category { padding: 80px 0;
  
 }
 
@@ -473,6 +482,8 @@ section#category section.wrapper div.heading div.left h2 {
   color: #000;
   padding: 10px;
   font-weight: 600;
+  
+
 
 }
 
@@ -485,9 +496,10 @@ section#category section.wrapper div.heading div.right h3 {
 }
 section#category section.wrapper div.heading div.right h3 a{
   font-size: 16px;
-  font-weight: 500;
-  border-bottom: 1px solid #5ca26e;
+  
+  border-bottom: 2px solid #5ca26e;
   color: #5ca26e;
+  font-family:"Inter_SemiBold";
 
 }
 
@@ -499,6 +511,7 @@ section#category section.wrapper div.categories {
 section#category section.wrapper div.categories ul { 
   display: flex;
   justify-content: space-between;
+  text-align: center;
   
   
 }
@@ -527,7 +540,9 @@ section#category section.wrapper div.categories ul li a img {
 
 section#category section.wrapper div.categories ul li h5 { 
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
+  font-family:"Inter_SemiBold" ;
+
 
 }
 
@@ -572,6 +587,7 @@ section#category section.wrapper div.categories ul li h5 {
 }
 #gallery section.wrapper section.container div.left div.top div.top_left h1{
   font-size:26px;
+  font-family:"Inter_Regular";
   
   
   
@@ -579,6 +595,7 @@ section#category section.wrapper div.categories ul li h5 {
 #gallery section.wrapper section.container div.left div.top div.top_left h3{
   font-size: 26px;
   margin-bottom: 50px;
+  font-family:"Inter_Regular";
   
 }
 #gallery section.wrapper section.container div.left div.top div.top_left div.text{
@@ -607,6 +624,7 @@ section#category section.wrapper div.categories ul li h5 {
   border-radius: 5px;
   display: inline-block;
   margin-bottom: 10px;
+  font-family:"Inter_Regular";
 }
 
 #gallery section.wrapper section.container div.left div.top_right{
@@ -619,6 +637,7 @@ section#category section.wrapper div.categories ul li h5 {
   border-radius:50% ;
   display: inline-block;
   width: 50px;
+  font-family:"Inter_Regular";
 
 
 }
@@ -640,6 +659,7 @@ section#category section.wrapper div.categories ul li h5 {
   font-size: 28px;
   margin-top: 20px;
   margin-left: 20px;
+  font-family:"Inter_Regular";
  
 
 }
@@ -647,6 +667,7 @@ section#category section.wrapper div.categories ul li h5 {
   font-size: 28px;
   
   margin-left: 20px;
+  font-family:"Inter_Regular";
   
 }
 #gallery section.wrapper section.container div.bottom div.bottom_left a.button{
@@ -657,6 +678,7 @@ section#category section.wrapper div.categories ul li h5 {
   margin-bottom: 10px;
   margin-top: 20px;
   margin-left: 20px;
+  font-family:"Inter_Regular";
 
 }
 #gallery section.wrapper section.container div.bottom div.bottom_right{
@@ -669,18 +691,21 @@ section#category section.wrapper div.categories ul li h5 {
   margin-left: 20px;
   margin-top: 20px;
   font-size: 26px;
+  font-family:"Inter_Regular";
 
 }
 #gallery section.wrapper section.container div.bottom div.bottom_right h3{
   margin-left: 20px;
 
   font-size: 26px;
+  font-family:"Inter_Regular";
 }
 #gallery section.wrapper section.container div.bottom div.bottom_right h1{
   font-size: 26px;
   margin-top: 20px;
   color: #CB1A1A;
   margin-left: 20px;
+  font-family:"Inter_Regular";
 
 }
 #gallery section.wrapper section.container div.bottom div.bottom_right a.button{
@@ -691,6 +716,7 @@ section#category section.wrapper div.categories ul li h5 {
   margin-bottom: 10px;
   margin-top: 20px;
   margin-left: 20px;
+  font-family:"Inter_Regular";
 
 }
 
@@ -706,7 +732,7 @@ section#category section.wrapper div.categories ul li h5 {
   margin-left: 20px;
   margin-top: 20px;
   font-size: 26px;
-
+  font-family:"Inter_Regular";
 
 }
 #gallery section.wrapper section.container div.right small{
@@ -720,6 +746,7 @@ section#category section.wrapper div.categories ul li h5 {
   color: #979aa0;
   margin-left: 20px;
   margin-top: 20px;
+  font-family:"Inter_Regular";
 }
 
 #our_products{
@@ -746,7 +773,7 @@ section#category section.wrapper div.categories ul li h5 {
   font-size: 24px;
   color: #000;
   padding: 10px;
-  font-weight: bold
+  font-family:"Inter_SemiBold";
 }
 #our_products section.wrapper section.product div.top div.right{
 
@@ -763,9 +790,11 @@ section#category section.wrapper div.categories ul li h5 {
 #our_products section.wrapper section.product div.top div.right ul li:last-child{
   margin-right: 0;
 }
+
 #our_products section.wrapper section.product div.top div.right ul li a{
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
+  font-family:"Inter_SemiBold";
 }
 
 
@@ -779,6 +808,7 @@ section#our_products section.wrapper section.product div.bottom ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  text-align: center;
   
 
 }
@@ -787,18 +817,21 @@ section#our_products section.wrapper section.product div.bottom ul li {
   background: #f7faff;
  
   width: 18%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+ 
 
 }
+
 
 section#our_products section.wrapper section.product div.bottom ul li a.button { 
   padding: 10px 15px;
   background: #cc1a1a;
   color: #fff;
-  border-radius: 10px;
+
   font-size: 18px;
   text-align: left;
-  font-weight:600;
+  font-family:"Inter_Regular";
+
   
 
 }
@@ -820,25 +853,31 @@ section#our_products section.wrapper section.product div.bottom ul li:nth-child(
   padding: 10px 15px;
   background: #a6a6a6;;
   color: #fff;
-  border-radius: 10px;
+ 
   font-size: 18px;
   text-align: left;
-  font-weight:600;
+  
+  font-family:"Inter_Regular";
+
 
 }
 section#our_products section.wrapper section.product div.bottom ul li:nth-child(10) a.button { 
   padding: 10px 15px;
   background: #a6a6a6;
   color: #fff;
-  border-radius: 10px;
+
   font-size: 18px;
   text-align: left;
-  font-weight:600;
+ 
+  font-family:"Inter_Regular";
+
 
 }
 
 section#our_products section.wrapper section.product div.bottom ul li div.img { 
  width: 100px;
+ margin: 0px auto 30px;
+
  
 }
 
@@ -846,14 +885,38 @@ section#our_products section.wrapper section.product div.bottom ul li div.img im
   display: block;
   width: 100%;
    margin-top: 20px;
+   
  
 
 
+}
+section#our_products section.wrapper section.product div.bottom ul li:nth-child(2) div.img img{
+ margin-top: 40px
+}
+section#our_products section.wrapper section.product div.bottom ul li:nth-child(4) div.img img{
+ margin-top: 40px
+}
+section#our_products section.wrapper section.product div.bottom ul li:nth-child(7) div.img img{
+ margin-top: 40px
+  
+}
+section#our_products section.wrapper section.product div.bottom ul li:nth-child(9) div.img img{
+ margin-top: 40px
+  
+}
+section#our_products section.wrapper section.product div.bottom ul li:nth-child(5) div.img img { 
+  margin-top: 40px;
+
+}
+section#our_products section.wrapper section.product div.bottom ul li:nth-child(10)div.img img{
+  margin-top: 40px;
 }
 
 section#our_products section.wrapper section.product div.bottom ul li h3 { 
   font-size:14px;
   font-weight:600;
+  font-family: "Inter_Regular";
+
   
 
 }
@@ -861,13 +924,14 @@ section#our_products section.wrapper section.product div.bottom ul li h3 {
 section#our_products section.wrapper section.product div.bottom ul li ul { 
   display: flex;
   justify-content: revert;
-  align-items: center;
+  justify-content: center;
   
 
 }
 
 section#our_products section.wrapper section.product div.bottom ul li ul li { 
  width:6%;
+ 
  
 
 }
@@ -887,10 +951,11 @@ section#our_products section.wrapper section.product div.bottom ul li span {
   background: #e3e3e3;
   font-size: 12px;
   
+  
 
 }
 section.services {
-  padding: 80px 0; 
+  padding: 60px 0; 
 
 }
 
@@ -943,12 +1008,15 @@ section.services section.wrapper section.container ul li div.text {
 section.services section.wrapper section.container ul li div.text h2 { 
   font-size: 15px;
   color: #9a9a9a;
+  font-family:"Inter_SemiBold";
+
 
 }
 
 section.services section.wrapper section.container ul li div.text h3 { 
   font-size: 10px;
   color: #8e8e8e;
+  font-family:"Inter_SemiBold";
 
 }
 section#testimonial { 
@@ -1015,6 +1083,7 @@ section#testimonial section.wrapper section.container div.middle div.top h2 {
   font-size: 32px;
   font-weight: 700;
   margin-top: 20px;
+  font-family: "Inter_Regular";
 
 }
 
@@ -1122,7 +1191,7 @@ section#best_seller section.wrapper div.top div.left h2 a {
   font-size: 24px;
   color: #000;
   padding: 10px;
-  font-weight: bold;
+  font-family:"Inter_SemiBold";
 
 }
 
@@ -1139,6 +1208,7 @@ section#best_seller section.wrapper div.top div.right h3 a {
     font-weight: 500;
     border-bottom: 1px solid #5ca26e;
     color: #5ca26e;
+    font-family:"Inter_SemiBold";
 
 }
 
@@ -1150,6 +1220,7 @@ section#best_seller section.wrapper div.bottom {
 section#best_seller section.wrapper div.bottom ul { 
   display: flex;
   justify-content: space-between;
+  text-align: center;
 
 }
 
@@ -1161,6 +1232,7 @@ section#best_seller section.wrapper div.bottom ul  li {
   background: #f7faff;
     width: 18%;
     margin-bottom: 10px;
+  
 
 }
 
@@ -1168,10 +1240,11 @@ section#best_seller section.wrapper div.bottom ul  li a.button {
   padding: 10px 15px;
   background: #cc1a1a;
   color: #fff;
-  border-radius: 10px;
+
   font-size: 18px;
   text-align: left;
-  font-weight: 600;
+
+  font-family:"Inter_Regular";
 
 }
 section#best_seller section.wrapper div.bottom ul  li:nth-child(2) a.button { 
@@ -1188,7 +1261,8 @@ section#best_seller section.wrapper div.bottom ul  li:nth-child(5) a.button {
     border-radius: 10px;
     font-size: 18px;
     text-align: left;
-    font-weight: 600;
+    font-family:"Inter_Regular";
+
 
 }
 
@@ -1196,6 +1270,7 @@ section#best_seller section.wrapper div.bottom ul  li:nth-child(5) a.button {
 
 section#best_seller section.wrapper div.bottom ul  li div.img { 
  width: 100px;
+ margin: 0px auto 30px;
 }
 
 section#best_seller section.wrapper div.bottom ul  li div.img img { 
@@ -1205,17 +1280,25 @@ section#best_seller section.wrapper div.bottom ul  li div.img img {
 
 
 }
+section#best_seller section.wrapper div.bottom ul  li:nth-child(2) div.img{
+ margin-top: 40px;
+}
+section#best_seller section.wrapper div.bottom ul  li:nth-child(4) div.img{
+ margin-top: 40px;
+}
 
 section#best_seller section.wrapper div.bottom ul  li h3 { 
   font-size: 14px;
   font-weight: 600;
+  font-family: "Inter_Regular";
+
 
 }
 
 section#best_seller section.wrapper div.bottom ul  li ul { 
   display: flex;
   justify-content: revert;
-  align-items: center;
+justify-content: center;
 
 }
 
@@ -1307,6 +1390,7 @@ section#banner section.wrapper div.main div.left_content a.button {
   color: #c8c8c8;
   background: #5ca26e;
   margin-bottom: 30px;
+  font-family: "Inter_Regular";
 
 }
 footer { 
@@ -1330,10 +1414,12 @@ footer section.wrapper div.content div.left {
 }
 
 footer section.wrapper div.content div.left h2 { 
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 20px;
   color: #5ca26e;
+  font-family: "Inter_SemiBold";
+
 
 }
 
@@ -1398,9 +1484,10 @@ footer section.wrapper div.content div.middle div.middle-left {
 }
 
 footer section.wrapper div.content div.middle div.middle-left h2 { 
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
+  font-family: "Inter_SemiBold";
 
 }
 
@@ -1428,10 +1515,11 @@ footer section.wrapper div.content div.middle div.middle-right {
 }
 
 footer section.wrapper div.content div.middle div.middle-right h2 { 
-  font-size:16px;
+  font-size:22px;
   font-weight: 600;
   margin-bottom: 20px;
   line-height: 1.9;
+  font-family: "Inter_SemiBold";
 
 }
 
@@ -1464,9 +1552,10 @@ footer section.wrapper div.content  div.right{
 
 }
 footer section.wrapper div.content  div.right h2{
-  font-size:16px;
+  font-size:22px;
   font-weight: 600;
   margin-bottom: 20px;
+  font-family: "Inter_SemiBold";
   
 }
 footer section.wrapper div.content  div.right div.payment{
@@ -1509,6 +1598,7 @@ footer section.wrapper div.content  div.right ul.online_pay li a img{
   }
   section#category section.wrapper div.categories ul li{
     width: 26%;
+    
   }
   section#our_products section.wrapper section.product div.bottom ul{
     flex-wrap: wrap;
@@ -1526,6 +1616,10 @@ footer section.wrapper div.content  div.right ul.online_pay li a img{
   section#best_seller section.wrapper div.bottom ul{
     flex-wrap: wrap;
   }
+  section.services{
+    padding: 40px 0;
+  }
+  
   section.services section.wrapper section.container ul{
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -1533,10 +1627,15 @@ footer section.wrapper div.content  div.right ul.online_pay li a img{
   section.services section.wrapper section.container ul li{
     width: 30%;
     margin-top: 80px;
+    margin-left: 0;
   }
-  #shipping section.content ul li div.img {
+  section.services section.wrapper section.container ul li div.imag {
     width: 32%;
     margin-right: 0;
+}
+section#our_products section.wrapper section.product div.bottom ul li:last-child{
+  margin-bottom: 0;
+
 }
 
  
