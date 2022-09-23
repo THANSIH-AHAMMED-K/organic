@@ -1337,7 +1337,7 @@ section.brand section.wrapper ul {
 }
 
 section.brand section.wrapper ul li { 
- width: 170px;
+ width: 15%;
 
 
 }
@@ -1728,8 +1728,90 @@ section#our_products section.wrapper section.product div.bottom ul li:last-child
     display: none;
   }
   header section.wrapper div.top div.social {
-   margin: 0 auto;
-  }
+    margin: 0 90px;
+    margin-bottom: 30px;
+}
+header section.wrapper div.top div.contact div.item{
+  margin-top: 30px;
+}
+section.spotlight section.wrapper section.image_container div.first_image div.content{
+  width: 80%;
+}
+section.spotlight section.wrapper section.image_container div.first_image div.content h1{
+  font-size: 50px;
+}
+section.spotlight section.wrapper section.image_container div.first_image div.content h2{
+  font-size: 37px;
+}
+section.spotlight section.wrapper section.image_container div.first_image div.content p{
+  font-size: 15px;
+}
+section.spotlight section.wrapper section.image_container div.second_image div.content{
+  width: 80%;
+}
+section.spotlight section.wrapper section.image_container div.second_image div.content h1{
+  font-size: 37px;
+}
+section#category section.wrapper div.categories ul li{
+  width: 47%;
+}
+section#category section.wrapper div.categories ul li a {
+   width: 80px;
+}
+#gallery section.wrapper section.container div.left div.top div.top_left{
+  width: 100%;
+}
+#gallery section.wrapper section.container div.left div.top_right{
+  width: 20%;
+}
+#gallery section.wrapper section.container div.bottom div.bottom_left {
+ width: 51%;
+}
+#gallery section.wrapper section.container div.bottom div.bottom_left h2 {
+  font-size: 25px;
+}
+#gallery section.wrapper section.container div.bottom div.bottom_left h3{
+  font-size: 25px;
+}
+section #our_products {
+  padding: 20px 0;
+
+}
+section.services section.wrapper section.container ul li {
+  width: 45%;
+}
+section.services section.wrapper section.container ul li:last-child{
+  margin-bottom: 40px;
+}
+section#our_products section.wrapper section.product div.bottom ul li {
+  width: 47%;
+  margin-top: 15px;
+}
+section#our_products section.wrapper section.product div.bottom ul li div.img {
+width: 80px;
+}
+section.services{
+  padding: 20px 0;
+
+}
+section#testimonial section.wrapper section.container div.middle div.top {
+  width: 70%;
+}
+section#best_seller section.wrapper div.bottom ul li{
+  width: 48%;
+}
+section.brand section.wrapper ul{
+  flex-wrap: wrap-reverse;
+}
+section.brand section.wrapper ul li{
+  width: 25%;
+}
+section#banner section.wrapper div.main{
+  background: none;
+}
+section#banner section.wrapper div.main div.left_content{
+  width: 87%;
+}
 
   
 }
